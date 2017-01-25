@@ -231,4 +231,10 @@ raptorsLetters()
 dragonsLetters()
 sharksLetters()
 
-print(letters)
+//Printing letters and average heights for the peer review update. 
+
+print("Average height of team Dragons is \(getAverageHeightOf(team: teamDragonsHeights))")
+print("Average height of team Sharks is \(getAverageHeightOf(team: teamSharksHeights))")
+print("Average height of team Raptors is \(getAverageHeightOf(team: teamRaptorsHeights))")
+
+print(letters))
